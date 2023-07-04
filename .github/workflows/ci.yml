@@ -9,7 +9,7 @@ on:
     paths:
       - Dockerfile
   schedule:
-    - cron: 30 5 * * MON  # Every monday at 5.30 AM
+    - cron: 30 5 * * SUN  # Every Sunday at 5.30 AM
 
 jobs:
   build:
